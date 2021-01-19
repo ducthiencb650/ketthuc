@@ -1,0 +1,125 @@
+.background{
+    background-repeat:no-repeat;
+    width: 1366px;
+    background-size: 100% 100%;
+}
+.carousel{
+   background: black;
+    width: 1366px;
+}
+.carousel-item.active{
+    position: relative;
+}
+.carousel-item img{
+    width: 100%;
+    height: 900px;
+    opacity: 0.7; 
+}
+.dropdown-menu{
+    position: relative;
+}
+.fullface{
+    position: absolute;
+    left: 100%;
+    top:0px;
+    background-color: white;
+    width: 200;
+    width: 100%;
+    border-radius: .25rem;
+    padding-top: 10px;
+}
+.rawbumblle{
+    position: absolute;
+    left: 100%;
+    top:0px;
+    background-color: white;
+    width: 200;
+    width: 100%;
+    border-radius: .25rem;
+    padding-top: 15px;
+}
+.rawbatrenbon{
+    position: absolute;
+    left: 100%;
+    top:0px;
+    background-color: white;
+    width: 200;
+    width: 100%;
+    border-radius: .25rem;
+    padding-top: 15px;
+}
+.nonmotorhai{
+    position: absolute;
+    left: 200%;
+    top:0px;
+    background-color: white;
+    width: 100%;
+    border-radius: .25rem;
+    padding-top: 10px;
+}
+img{
+    width: 100%;
+}  
+body > header > div > div.background-sub > div > div > img {
+    width: auto;
+}
+.item{
+    overflow: hidden;
+}
+.item button{
+    background-color: black;
+    color: white;
+}
+.item:hover img, .item:hover .girl{
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+.item p:hover{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+a:hover{
+    color: blue;
+}
+.red:hover{
+    color: red;
+}
+.item button:hover{
+    background-color: white;
+    color: black;
+}
+.border-top{
+    border: 3px solid black;
+    margin-top: 40px;
+}
+.raw{
+    padding: 10px;
+    border: 1px solid #ababab;
+    background: white;
+    margin-bottom: 30px;
+}
+.image-row{
+    width: 200px;
+    height: 200px;
+}
+.girl{
+    background-image: url(image/ms_banner_img2.webp);
+    height: 621.8px;
+    background-size: cover;
+}
+footer{
+    background-image: url(http://theme.hstatic.net/1000382882/1000489659/14/ft_bg_img.png?v=415);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 768px;
+    width: 1366px;
+}
+.footer-background{
+    background: rgba(0, 0, 0, 0.7);
+    height: 768px;
+    width: 1366px;
+}
